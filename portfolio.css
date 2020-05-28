@@ -1,0 +1,362 @@
+body#landing-page{
+    background-color:#edfafd;
+    /*linear-gradient(to right,#edc7b7 0%,#edc7b7 50%, #Eee2dc  5%, #Eee2dc  100%);*/
+}
+
+body#about-page{
+    background-color: #edfafd;
+}
+
+body#contact-page{
+    background-color: #edfafd;
+}
+body#musicplayer-page, body#northeast-page, body#podcast-page{
+    background-image:linear-gradient(to right,#044660 0%,#044660 50%, #edfafd 50%, #edfafd  100%);
+}
+
+body#contact-page{
+    background-color:#044660;
+}
+
+nav.top-nav {
+    background-color: white;
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    z-index: 3;
+   
+}
+
+nav.top-nav ul{
+    list-style: none;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+nav.top-nav li {
+    font-family: 'Hind', sans-serif;
+    font-weight: bold;
+    color: #044660 ;
+    display: inline-block;
+    background-color:white;
+    padding: 5px; 
+    user-select: none;
+    position: relative;
+    font-size:140%;
+}
+
+nav.top-nav li a{
+    
+    font-weight: bold;
+    color: #044660;
+    text-decoration:none;
+}
+
+
+
+nav.top-nav #right-menu{
+    float:right;
+    
+}
+nav.top-nav #name{
+    float:none;
+    position:absolute;
+    left:50%; 
+    top:50%;
+    transform: translate(-50%,-50%);
+    font-size: 180%;
+}
+
+nav.top-nav li:hover{
+    text-decoration: underline;
+}
+nav.top-nav li:active{
+    color: black;
+}
+
+nav.top-nav #name:hover{
+    text-decoration: none;
+}
+
+#landingimage{
+    max-width: 103%;
+    overflow: hidden;
+    margin-left:-10px;
+}
+
+#aboutmeimage{
+    width: 102%;
+    float:left;
+    overflow: hidden;
+    margin-left:-7px;
+}
+
+main #hello{
+    
+    color:whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size:15vw;
+    position: absolute;
+    top:9vw;
+    left:40%;
+    letter-spacing:8px;
+    animation: text 3s 1;
+    display:inline-block;
+}
+
+main #intro{
+    font-family: 'Montserrat', sans-serif;
+    font-size:5vw;
+    position: absolute;
+    top:24vw;
+    left:41%;
+    color:whitesmoke;
+    font-weight: 800;
+    animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 4s;
+}
+
+#landing-page main #intro2{
+    text-align:center;
+    position:relative;
+    text-align:center;
+    top:3vw;
+    font-size:4.5vw;;
+    font-family: 'Hind', sans-serif;
+    font-weight: 500;
+    color:#044660 ;
+}
+
+#landing-page main .projects .project{
+    display: inline-block;
+    position: relative;
+    top:50px;
+    left:1.5vw;
+}
+
+#landing-page main .projects .project .image{
+    width: 600px;
+    height:400px;
+    margin-left:5px;
+    margin-right:5px;
+    padding:6px;
+    height:30vw;
+    width:30vw;  
+
+}
+
+#landing-page main .projects .project .image:hover{
+    opacity: 0.3;
+}
+
+.resume{
+    position:relative;
+    top:60px;
+    left:-40px;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#044660 ;
+    padding:20px;
+    margin:20px;
+    width: 100%;
+}
+
+.resume:hover{
+    opacity:0.3;
+}
+
+#landing-page .resumelink{
+    color:white;
+    text-decoration: none;
+    font-size:3vw;
+}
+#about-page .resumelink{
+    color:white;
+    text-decoration: none;
+    font-size:3vw;
+}
+
+.projectinfo{
+    display:grid;
+    height:90%;
+    width:90%;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 20% 80%;
+    position:relative;
+    left:4vw;
+    top:6vw;
+}
+
+.projectinfo .projectpagetitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size:3.5vw;
+    text-align:center;
+    font-weight: 800;
+    color:#044660;
+    grid-row: 1/span 1;
+    grid-column: 2/span 2;
+    position:relative;
+    margin-bottom:10px;
+    top:20px;
+    left:45px;
+   
+
+}
+
+.projectinfo .projectpagedescription{
+    grid-row: 2/span 2;
+    grid-column: 2/span 2;
+    font-family: 'Hind', sans-serif;
+    position:relative;
+    top:50px;
+    left:50px;
+    font-size:2vw;
+    text-align:center;
+    color:#044660;
+    
+}
+
+.projectinfo .sample{
+    grid-row:1/span 2;
+    grid-column: 1/span 1;
+    position:relative;
+    left:45%;
+    top:250%;
+    transform: translate(-50%,-50%);
+    width:55%;
+    border:solid white 15px;
+    border-radius: 20px;
+    
+}
+
+.projectinfo .sample:hover{
+    opacity:0.5;
+}
+
+
+#about-page #thisisme {
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    display:block;
+    position: absolute;
+    top:110px;
+    left:20px;
+    z-index: 1;
+    font-size: 13vw;
+    width:8vw;
+    line-height: 90%;
+}
+
+#about-page .aboutmewords {
+    position: absolute;
+    margin-left:48%;
+    top:110px;
+    float:right;
+    width:50%;
+    line-height: 90%;
+    font-family: 'Montserrat', sans-serif;
+    text-align:right;
+    color:white;
+    z-index: 1;
+    font-size: 6vw;
+}
+
+#about-page .arrow-down{
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+}
+
+#about-page .arrow-down::after {
+    content: "";
+    width: 5vw;
+    height:5vw;
+    position:absolute;
+    margin:auto;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    border-right:4px solid #fff;
+    border-bottom:4px solid #fff;
+    -webkit-animation:rotate(45deg);
+    transform:rotate(45deg);
+    -webkit-animation:3s arrow infinite ease;
+    animation:3s arrow infinite ease;
+
+}
+
+#about-page #aboutmedescriptiion{
+    text-align:center;
+    position:relative;
+    top:50px;
+    font-family: 'Hind', sans-serif;
+    font-size:2vw;
+    font-weight: bold;
+    color: #044660 ;
+    padding-top:20px;
+}
+
+@media only screen and (max-width: 1000px){
+    .arrow-down{
+        display:none;
+    }
+}
+@-webkit-keyframes arrow{
+    0%,100% {
+        top: 42vw;
+    }
+    50%{
+        top: 45vw;
+    }
+}
+
+
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+    }
+    65%{
+        opacity:0;
+    }
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes text{
+     0%{
+         color:whitesmoke;
+         margin-bottom:-.7em;
+
+     }
+
+     30%{
+         letter-spacing:25px;
+         margin-bottom:-.7em;
+     }
+     85%{
+         letter-spacing:8px;
+         margin-bottom:-.7em;
+     }
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+   
