@@ -24,6 +24,25 @@ var projects=[
     }
 ]
 
+var contacts =[
+    {
+        link:"https://www.linkedin.com/in/rena-upadhyay-6b8b36173/",
+        image:"https://i.ya-webdesign.com/images/linkedin-transparent-outline-2.png",
+
+    },
+    {
+        link:"https://www.instagram.com/renaupadhyay/?hl=en",
+        image:"https://freeiconshop.com/wp-content/uploads/edd/instagram-new-outline.png",
+
+    },
+    {
+        link:"https://www.facebook.com/profile.php?id=100005326726445",
+        image:"https://cdn4.iconfinder.com/data/icons/social-media-outline-3/60/Social-01-Facebook-Outline-512.png",
+
+    },
+
+]
+
 function createProjects(projects,sectionSelector){
     let section= document.querySelector(sectionSelector);
     if(section){
@@ -55,6 +74,24 @@ function createProjectPage(projects,sectionSelector, number){
             }
         }
     }
-
+function createContacts(contacts,sectionSelector){
+    let section= document.querySelector(sectionSelector);
+    if(section){
+        if (contacts instanceof Array){
+            for(let contact of contacts){
+                let html = `
+               <a href="${contact.link}"> <img class="image" src="${contact.image}"></a>
+                
+                `;
+                let container=document.createElement("div");
+                container.className="contact";
+                container.innerHTML = html;
+                section.append(container);
+              
+            }
+        }
+    }
+    
+}
 
 
