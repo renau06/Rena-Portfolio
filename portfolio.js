@@ -10,7 +10,7 @@ var projects=[
     {
         page: "musicplayer",
         title:"Mobile Music Player Application",
-        image: "music-player.png",
+        image: "music-player.PNG",
         description: "I recently created a mobile music application using HTML, CSS, and Javascript. This was one of my first projects involving HTML and CSS. I did this project for a class, however, I plan to continue working on it to continue adding more of my own style and creativity.",
         sample:"musicplayersample.png",
         link:"ipod-starter copy/albums.html"
@@ -18,7 +18,7 @@ var projects=[
     {
         page:"bookshelfwireframe",
         title:"Bookclub App Wireframe Prototype",
-        image:"wireframe.png",
+        image:"wireframe.PNG",
         description: "I created this wireframe prototype of a fictional online book club app. I used Balsamiq to create this wireframe. The wireframe implements features I believed were necessary for a book club app, including the ability to search books, add books to you reading lists, rate books, and read books.",
         sample:"bookclubappsample.png",
         link:"https://balsamiq.cloud/soancio/pgyhw3l"
@@ -26,7 +26,7 @@ var projects=[
     {
         page:"northeastwebsite",
         title:"Northeast Pediatrics Website",
-        image: "website.png",
+        image: "website.PNG",
         description: "Northeast Pediatrics is my local pediatrician office. In high school, I assisted in revamping their website. I worked along side a professional web developer to create a new, energetic design for the Northeast Pediatrics wesbite to increase engagement.",
         sample:"northeastsample.png",
         link:"https://northeastkids.webs.com"
