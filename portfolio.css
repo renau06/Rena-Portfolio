@@ -10,7 +10,7 @@ body#about-page{
 body#contact-page{
     background-color: #edfafd;
 }
-body#musicplayer-page, body#northeast-page, body#podcast-page{
+body#musicplayer-page, body#northeast-page, body#podcast-page, body#bookshelf-page{
     background-image:linear-gradient(to right,#044660 0%,#044660 50%, #edfafd 50%, #edfafd  100%);
 }
 

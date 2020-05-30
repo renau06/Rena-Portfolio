@@ -16,6 +16,14 @@ var projects=[
         link:"ipod-starter copy/albums.html"
     },
     {
+        page:"bookshelfwireframe",
+        title:"Bookclub App Wireframe Prototype",
+        image:"wireframe.png",
+        description: "I created this wireframe prototype of a fictional online book club app. I used Balsamiq to create this wireframe. The wireframe implements features I believed were necessary for a book club app, including the ability to search books, add books to you reading lists, rate books, and read books.",
+        sample:"bookclubappsample.png",
+        link:"https://balsamiq.cloud/soancio/pgyhw3l"
+    },
+    {
         page:"northeastwebsite",
         title:"Northeast Pediatrics Website",
         image: "website.png",
@@ -23,6 +31,7 @@ var projects=[
         sample:"northeastsample.png",
         link:"https://northeastkids.webs.com"
     }
+
 ]
 
 var contacts =[
