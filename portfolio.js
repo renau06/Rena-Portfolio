@@ -3,8 +3,9 @@ var projects=[
         page:"takehomepodcast",
         title:"Take Home Pediatrics Podcast",
         image: "podcast.png",
-        description: "I am currently working for a local pediatrician who has recently started a podcat. I have created the logo and composed the sountrack for Take Home Pediatrics: The Podcast. Now, I am working on designing the wesbsite. My aim is to make it captivating and educational, in order to draw users to listen to the podcast. Feel free to take a look at my work in progress!",
+        description: "I am currently working for a local pediatrician who has recently started a podcast. I have created the logo and composed the soundtrack for Take Home Pediatrics: The Podcast. Now, I am working on designing the wesbsite. My aim is to make it captivating and educational, in order to draw users to listen to the podcast. Feel free to take a look at my work in progress!",
         sample: "podcastsample.png",
+        link:"Take Home Pediatrics Website/landingpage.html"
     },
     {
         page: "musicplayer",
@@ -18,7 +19,7 @@ var projects=[
         page:"northeastwebsite",
         title:"Northeast Pediatrics Website",
         image: "website.png",
-        description: "Northeast Pediatrics is my local pediatrician office. In high schoool, I assisted in revamping their website. I worked along side a professional web developer to create a new, energetic design for the Northeast Pediatrics wesbite to increase engagement.",
+        description: "Northeast Pediatrics is my local pediatrician office. In high school, I assisted in revamping their website. I worked along side a professional web developer to create a new, energetic design for the Northeast Pediatrics wesbite to increase engagement.",
         sample:"northeastsample.png",
         link:"https://northeastkids.webs.com"
     }
